@@ -1,0 +1,147 @@
+.main-section 
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.second-section 
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+.main-section h3 
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-bottom: 3vh;
+}
+.second-section h3 
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-bottom: 3vh;
+}
+.main-section p 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5vh;
+    padding-bottom: 5vh;    
+}
+.second-section p 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.main-body h3 
+{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+.products-section
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 2.5vw;
+    grid-row-gap: 2.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-bottom: 5vh;
+}
+.product-row img
+{
+    height: 45vh;
+    width: 15vw;
+}
+.product-row h5 
+{
+    text-align: center;
+    margin-top: 1vh;
+}
+.prod-main-section
+{
+    display: flex;
+    flex-direction: row;
+}
+.gallery-section
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.main-img img 
+{
+    height: 65vh;
+    width: 25vw;
+}
+.imgs
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin-top: 3vh;
+    grid-column-gap: 2vw;
+
+}
+.imgs img
+{
+    height: 18vh;
+    width:7vw;
+    text-align: center;
+}
+.info-section
+{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.info-section h4 
+{
+    text-transform: capitalize;
+}
+.about-section
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    width: 25vw;
+}
+.about-section p 
+{
+    border-left: black solid 2.5px;
+    padding-left: 0.5vw;
+    color: black;
+
+}
+.shop-section h5
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-align: center;
+    margin-left: 0.5vw;
+}
+.shop-section
+{
+    width: 15vw;
+    border:2.5px solid black;
+    padding:5px 5px 5px 5px;
+    border-radius: 5.5px;
+}
+.e-com-section
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1.5px;
+    text-align: center;
+}
+.e-com-section img 
+{
+    height: 5vh;
+    width: 5vh;
+}

@@ -1,0 +1,199 @@
+.flex-container 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:end;
+}
+.main-section 
+{
+    margin-top: 20vh;
+    }
+.image-section img 
+{
+    width: 55vw;
+    height: 65vh;
+}
+.main-section h3 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.product-section
+{
+    padding:10vh 10vw 10vh 10vw;
+    background-color: #458DF4;
+    background-image:linear-gradient(to top left,#458DF4,#446E9B);
+    
+}
+.product-section h3 
+{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.products-row
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding:3vh 3vw 3vh 3vw;
+    grid-column-gap: 5vh;
+}
+.category-section
+{
+    padding:10vh 10vw 10vh 10vw;
+    background-color: #446E9B;
+    background-image:linear-gradient(to top right,#446E9B,#458DF4);
+    
+}
+.category-section h3 
+{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+.category-row
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    padding:3vh 3vw 3vh 3vw;
+    grid-column-gap: 5vh;
+}
+.contact-section h3 
+{
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.head-office
+{
+   padding: 5vh 5vw 5vh 5vw;
+   margin-top: 5vh;
+   margin-bottom: 5vh;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   border: black 2px solid;
+   width: 25vw;
+}
+.brand-store
+{
+    padding: 5vh 5vw 5vh 5vw;
+   margin-top: 5vh;
+   margin-bottom: 5vh;
+   margin-left: 5vw;
+   margin-right: 5vw;
+   border: black 2px solid;
+   width: 25vw;
+
+}
+.contact-flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.form-section
+{
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+.text-section 
+{
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+.contact-section
+{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #458DF4;
+    background-image: linear-gradient(to top left,#458DF4,#446E9B);
+}
+.footer-row
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    color: antiquewhite;
+    text-align: center;
+    background-color:#446E9B ;
+    background-image: linear-gradient(to top right,#446E9B,#458DF4);
+}
+.social-media
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    width: 15vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    margin-left: 5vw;
+}
+.social-media img 
+{
+    height: 5vh;
+    width: 2.5vw;
+}
+.footer-column
+{
+    text-align: center;
+}
+#social
+{
+    width: 25vw;
+    text-align: center;
+}
+#social h5
+{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.footer-column h5
+{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-column p 
+{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    
+}
+.contact-section p
+{
+    color: beige;
+}
+.product-item img 
+{
+    height:40vh;
+    width: 15vw;
+}
+.category-item img 
+{
+    height: 40vh;
+    width: 15vw;
+}
+.category-item h5
+{
+    text-transform: capitalize;
+}
+.product-item
+{
+    text-transform: capitalize;
+}

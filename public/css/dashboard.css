@@ -1,0 +1,48 @@
+.form-section
+{
+    margin-top: 3vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 3vh;
+}
+.table-section
+{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+.table-section img 
+{
+    height: 40vh;
+    width: 15vw;
+}
+.form-section img 
+{
+    height: 35vh;
+    width: 35vw;
+    margin-top: 5vh;
+    margin-left: 15vw;
+}
+.main-body
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    justify-content: center;
+}
+.first-body h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 5vw;
+    font-size: 90px;
+    font-weight: 700;
+}
+.second-body
+{
+    border-left: black solid 2.5px;
+    padding-left:2.5vw;
+} 
